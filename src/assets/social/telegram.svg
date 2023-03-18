@@ -1,9 +1,14 @@
-<svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<rect width="23" height="23" fill="url(#pattern0)"/>
-<defs>
-<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
-<use xlink:href="#image0_31_121" transform="scale(0.01)"/>
-</pattern>
-<image id="image0_31_121" width="100" height="100" xlink:href="data:image/png;base64,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"/>
-</defs>
-</svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+    <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+            "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg
+        width="24px"
+        height="24px"
+        fill="#ffffff"
+        version="1.1"
+        xmlns="http://www.w3.org/2000/svg"
+        xml:space="preserve"
+        style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <path
+            id="telegram-1"
+          d="M18.384,22.779c0.322,0.228 0.737,0.285 1.107,0.145c0.37,-0.141 0.642,-0.457 0.724,-0.84c0.869,-4.084 2.977,-14.421 3.768,-18.136c0.06,-0.28 -0.04,-0.571 -0.26,-0.758c-0.22,-0.187 -0.525,-0.241 -0.797,-0.14c-4.193,1.552 -17.106,6.397 -22.384,8.35c-0.335,0.124 -0.553,0.446 -0.542,0.799c0.012,0.354 0.25,0.661 0.593,0.764c2.367,0.708 5.474,1.693 5.474,1.693c0,0 1.452,4.385 2.209,6.615c0.095,0.28 0.314,0.5 0.603,0.576c0.288,0.075 0.596,-0.004 0.811,-0.207c1.216,-1.148 3.096,-2.923 3.096,-2.923c0,0 3.572,2.619 5.598,4.062Zm-11.01,-8.677l1.679,5.538l0.373,-3.507c0,0 6.487,-5.851 10.185,-9.186c0.108,-0.098 0.123,-0.262 0.033,-0.377c-0.089,-0.115 -0.253,-0.142 -0.376,-0.064c-4.286,2.737 -11.894,7.596 -11.894,7.596Z"/></svg>
