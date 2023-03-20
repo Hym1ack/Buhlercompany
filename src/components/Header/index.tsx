@@ -11,15 +11,19 @@ const Navigation = () => {
 
   return (
     <nav className={'flex sm:flex-col gap-8 lg:gap-4 md:gap-3 md:text-sm'}>
-      <a className={'p-1 border-b border-gray text-center'} href={'#about-us'}>
+      <a
+        className={'p-1 sm:border-b border-gray text-center'}
+        href={'#about-us'}>
         {t('about-us')}
       </a>
       <a
-        className={'p-1 border-b border-gray text-center'}
+        className={'p-1 sm:border-b border-gray text-center'}
         href={'#working-time'}>
         {t('how-we-work')}
       </a>
-      <a className={'p-1 border-b border-gray text-center'} href={'#feedback'}>
+      <a
+        className={'p-1 sm:border-b border-gray text-center'}
+        href={'#feedback'}>
         {t('feedback')}
       </a>
     </nav>
