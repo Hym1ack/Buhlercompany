@@ -9,6 +9,7 @@ module.exports = {
       blue: '#2D3D8A',
     },
     screens: {
+      xl: { max: '1200px' },
       lg: { max: '991px' },
       md: { max: '768px' },
       sm: { max: '480px' },
