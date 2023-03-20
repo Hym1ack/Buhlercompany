@@ -53,7 +53,10 @@ export const Header: FC = () => {
   const { isDesktop, isMobile } = useMatchMedia();
 
   return (
-    <div className={'flex items-center justify-between '}>
+    <div
+      className={
+        'flex items-center justify-between mt-2 md:mt-1 mb-44 md:mb-64'
+      }>
       <div
         className={
           'w-full flex gap-32 lg:gap-12 md:gap-4 items-center sm:justify-between'
