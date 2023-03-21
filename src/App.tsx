@@ -3,6 +3,7 @@ import { Header } from './components/Header';
 import i18n from './i18n';
 import { Hero } from './components/Hero';
 import mainPhoto from './assets/mainPhoto.png';
+import { WorkingTime } from './components/WorkingTime';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Header />
         <Hero />
       </div>
+      <WorkingTime />
     </I18nextProvider>
   );
 }
