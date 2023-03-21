@@ -5,8 +5,10 @@ module.exports = {
       white: '#FFFFFF',
       black: '#000000',
       gray: '#3A3A44',
+      lightgray: '#DEDEDE',
       light: '#6C6C6C',
       blue: '#2D3D8A',
+      lapis: '#5D70D6'
     },
     screens: {
       xl: { max: '1200px' },
