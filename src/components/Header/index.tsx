@@ -5,6 +5,7 @@ import { SocialMedia } from '../SocialMedia';
 import { LanguageToggle } from '../LanguageToggle';
 import { useMatchMedia } from '../../hooks/useMatchMedia';
 import { Modal } from '../Modal';
+import { Button } from '../Button';
 
 const Navigation = () => {
   const { t } = useTranslation();
@@ -35,8 +36,8 @@ type ModalButtonProps = {
 };
 
 const ModalButton: FC<ModalButtonProps> = ({ setOpenMenu }) => (
-  <button onClick={setOpenMenu}>
-    <svg viewBox={'0 0 20 20'} width={'20'} height={'20'} fill={'currentColor'}>
+  <Button className={'w-10 text-black'} onClick={setOpenMenu}>
+    <svg viewBox={'0 0 20 20'} fill={'currentColor'}>
       <path
         fillRule={'evenodd'}
         d={
@@ -45,7 +46,7 @@ const ModalButton: FC<ModalButtonProps> = ({ setOpenMenu }) => (
         clipRule={'evenodd'}
       />
     </svg>
-  </button>
+  </Button>
 );
 
 export const Header: FC = () => {

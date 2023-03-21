@@ -1,6 +1,7 @@
 import { FC } from 'react';
 import { useTranslation } from 'react-i18next';
 import { BestService } from '../BestService';
+import { Button } from '../Button';
 
 const MainInfo: FC = () => {
   const { t } = useTranslation();
@@ -18,18 +19,20 @@ const MainInfo: FC = () => {
         {t('hero-text')}
       </p>
       <div className={'flex sm:justify-center gap-12 lg:gap-6 md:flex-wrap'}>
-        <button
+        <Button
           className={
-            'w-56 px-1 py-4  text-white bg-blue rounded-lg hover:bg-white hover:text-blue hover:border hover:border-blue duration-300'
-          }>
-          {t('hero-button-request')}
-        </button>
-        <button
+            'text-white bg-blue border border-blue hover:bg-white hover:text-blue'
+          }
+          onClick={() => console.log('open form')}>
+          {t('button-request')}
+        </Button>
+        <Button
           className={
-            'w-56 px-1 py-4  text-blue border border-blue rounded-lg hover:bg-blue hover:text-white duration-300'
-          }>
-          {t('hero-button-join')}
-        </button>
+            'text-blue border border-blue hover:bg-blue hover:text-white'
+          }
+          onClick={() => console.log('join us')}>
+          {t('button-join')}
+        </Button>
       </div>
     </div>
   );
