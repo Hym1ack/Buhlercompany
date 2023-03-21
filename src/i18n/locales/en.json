@@ -4,8 +4,8 @@
   "feedback": "Our feedback",
   "hero-title": "We are a close-knit team of like-minded people who work with joy and interest.",
   "hero-text": "Our mission is the trust and happy smiles of our customers.\nWe are ahead of the market, constantly breaking new ground for life and business.",
-  "hero-button-request": "Leave a request",
-  "hero-button-join": "Join our team",
+  "button-request": "Leave a request",
+  "button-join": "Join our team",
   "hero-delivered": "Parcels delivered",
   "hero-clients": "Customers",
   "hero-workspaces": "Workplaces",
@@ -15,5 +15,24 @@
   "service-feature-title-2": "Cargo storage",
   "service-feature-text-2": "Buhlercompany provides quality storage services.",
   "service-feature-title-3": "Cargo transfer",
-  "service-feature-text-3": "The company provides high-quality transfer of small cargo."
+  "service-feature-text-3": "The company provides high-quality transfer of small cargo.",
+  "working" : {
+    "title": "How we work",
+    "stage-1": {
+      "title": "Submitting your application",
+      "text": "Apply for a position online, and our manager will get in touch with you."
+    },
+    "stage-2": {
+      "title": "Entering into a contract",
+      "text": "We enter into a formal and legally valid contract. We work with legal entities and individuals. Payment is made by non-cash methods."
+    },
+    "stage-3": {
+      "title": "Monitoring and tracking",
+      "text": "Our manager informs you about every step of the cargo movement. You can also track it yourself."
+    },
+    "stage-4": {
+      "title": "Cargo delivery",
+      "text": "Delivery and shipment of cargo occurs in accordance with the transit time of the company."
+    }
+  }
 }

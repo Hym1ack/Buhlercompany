@@ -4,8 +4,8 @@
   "feedback": "Bewertungen",
   "hero-title": "Wir sind ein freundliches Team von Gleichgesinnten, die mit Freude und Interesse arbeiten.",
   "hero-text": "Unser Ziel ist das Vertrauen und das glückliche Lächeln unserer Kunden.\nWir sind dem Markt voraus, entdecken ständig neue Lebens- und Geschäftsmöglichkeiten.",
-  "hero-button-request": "Anfrage hinterlassen",
-  "hero-button-join": "Komm in unser Team",
+  "button-request": "Anfrage hinterlassen",
+  "button-join": "Komm in unser Team",
   "hero-delivered": "Ausgelieferte Pakete",
   "hero-clients": "Kunden",
   "hero-workspaces": "Arbeitsplätze",
@@ -15,5 +15,24 @@
   "service-feature-title-2": "Frachtlagerung",
   "service-feature-text-2": "Buhlercompany bietet hochwertige Lagerungsdienstleistungen an.",
   "service-feature-title-3": "Frachttransfer",
-  "service-feature-text-3": "Das Unternehmen bietet einen qualitativ hochwertigen Transfer von kleinen Frachten."
+  "service-feature-text-3": "Das Unternehmen bietet einen qualitativ hochwertigen Transfer von kleinen Frachten.",
+  "working" : {
+    "title": "Wie wir arbeiten",
+    "stage-1": {
+      "title": "Einreichung Ihrer Bewerbung",
+      "text": "Bewerben Sie sich onine, und unser Manager wird sich mit Ihnen in Verbindung setzen."
+    },
+    "stage-2": {
+      "title": "Abschluss eines Vertrages",
+      "text": "Wir schließen einen formellen und rechtsgültigen Vertrag ab. Wir arbeiten mit juristischen und natürlichen Personen zusammen. Die Zahlung erfolgt bargeldlos."
+    },
+    "stage-3": {
+      "title": "Überwachung und Verfolgung",
+      "text": "Unser Manager informiert Sie über jeden Schritt der Frachtbewegung. Sie können sie auch selbst verfolgen."
+    },
+    "stage-4": {
+      "title": "Lieferung der Fracht",
+      "text": "Die Lieferung und der Versand von Fracht erfolgt gemäß der Laufzeit des Unternehmens."
+    }
+  }
 }
