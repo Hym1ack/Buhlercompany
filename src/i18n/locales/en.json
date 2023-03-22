@@ -34,5 +34,21 @@
       "title": "Cargo delivery",
       "text": "Delivery and shipment of cargo occurs in accordance with the transit time of the company."
     }
+  },
+  "choose": {
+    "title": "Why choose <span class='text-blue'>us</span>",
+    "text": "Our transportation company <span class='text-blue'>Buhlercompany</span> carries out international shipments. \n\nWe perform transportation of goods of all kinds and in all directions. We are one of the leading companies that control the supply chain. Employees of the <span class='text-blue'>Buhlercompany</span> develop and implement the latest ideas and solutions in the field of organization and management of transportation.\n\nWe provide individuals and companies with a range of timely and guaranteed delivery services. We are constantly improving the level of service, introducing new technologies, effectively using internal potential and external resources.\n\nThus, the cohesion of the team of professionals is perfect for implementing a system of mass participation!",
+    "spec-1": {
+      "title": "Guaranteed price and delivery time",
+      "text": "We value our customers' time, therefore we work in compliance with all our deadlines"
+    },
+    "spec-2": {
+      "title": "Any cargo volume",
+      "text": "Delivery and shipment takes place in accordance with the company's transit time"
+    },
+    "spec-3": {
+      "title": "Advantageous terms of cargo insurance",
+      "text": "Rest assured, we will insure your cargo against all accidents"
+    }
   }
 }

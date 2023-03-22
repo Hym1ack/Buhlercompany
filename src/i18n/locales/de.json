@@ -34,5 +34,21 @@
       "title": "Lieferung der Fracht",
       "text": "Die Lieferung und der Versand von Fracht erfolgt gemäß der Laufzeit des Unternehmens."
     }
+  },
+  "choose": {
+    "title": "Warum uns wählen",
+    "text": "Unser Transportunternehmen Buhlercompany führt internationale Lieferungen durch.\n\nWir führen Transporte von Waren aller Art und in alle Richtungen durch. Wir sind eines der führenden Unternehmen, die die Lieferkette kontrollieren. Die Mitarbeiter der Buhlercompany entwickeln und implementieren die neuesten Ideen und Lösungen im Bereich der Organisation und des Managements von Transporten.\n\nWir bieten Privatpersonen und Unternehmen eine Reihe von pünktlichen und garantierten Zustelldiensten. Wir verbessern ständig das Serviceniveau, führen neue Technologien ein und nutzen effizient das interne Potenzial und externe Ressourcen.\n\nDer Zusammenhalt des Teams von Fachleuten ist also perfekt für die Umsetzung eines Systems der Massenbeteiligung!",
+    "spec-1": {
+      "title": "Garantierte Preise und Lieferfristen",
+      "text": "Die Zeit unserer Kunden ist uns wichtig, deshalb halten wir alle unsere Termine ein."
+    },
+    "spec-2": {
+      "title": "Jedes Frachtvolumen",
+      "text": "Die Lieferung und der Versand erfolgen in Übereinstimmung mit der Laufzeit des Unternehmens"
+    },
+    "spec-3": {
+      "title": "Vorteilhafte Bedingungen der Frachtversicherung",
+      "text": "Seien Sie versichert, dass wir Ihre Fracht gegen alle Unfälle versichern werden"
+    }
   }
 }
