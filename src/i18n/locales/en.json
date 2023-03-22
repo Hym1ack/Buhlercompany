@@ -52,5 +52,14 @@
     }
   },
   "feedback-title": "Feedback from our customers",
-  "become-us-title": "Would you like to join our team?"
+  "become-us-title": "Would you like to join our team?",
+  "footer": {
+    "contacts": "Contacts",
+    "services": "Services",
+    "about-us":  "About us",
+    "cargo-transportation": "Cargo transportation",
+    "cargo-storage": "Cargo storage",
+    "cargo-transfer": "Cargo transfer",
+    "legal-address": "Legal address"
+  }
 }

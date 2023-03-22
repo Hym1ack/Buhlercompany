@@ -52,5 +52,14 @@
     }
   },
   "feedback-title": "Что говорят <span class='text-blue'>наши клиенты</span>",
-  "become-us-title": "Хотите стать частью нашей команды?"
+  "become-us-title": "Хотите стать частью нашей команды?",
+  "footer": {
+    "contacts": "Контакты",
+    "services": "Услуги",
+    "about-us":  "О нас",
+    "cargo-transportation": "Транспортировка груза ",
+    "cargo-storage": "Хранение груза",
+    "cargo-transfer": "Пересылка груза",
+    "legal-address": "Юридический адрес"
+  }
 }

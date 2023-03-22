@@ -52,5 +52,14 @@
     }
   },
   "feedback-title": "Feedback unserer Kunden",
-  "become-us-title": "Möchten Sie unser Team verstärken?"
+  "become-us-title": "Möchten Sie unser Team verstärken?",
+  "footer": {
+    "contacts": "Kontakt",
+    "services": "Services",
+    "about-us":  "Über uns",
+    "cargo-transportation": "Frachttransport",
+    "cargo-storage": "Frachtlagerung",
+    "cargo-transfer": "Frachttransfer",
+    "legal-address": "Juristische Adresse"
+  }
 }
