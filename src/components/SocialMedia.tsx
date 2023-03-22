@@ -10,6 +10,10 @@ type SocialType = {
   icon: IconType;
 };
 
+type SocialMediaProps = {
+  className?: string;
+};
+
 const links: SocialType[] = [
   {
     to: '/telegramLink',
@@ -25,14 +29,12 @@ const links: SocialType[] = [
   },
 ];
 
-export const SocialMedia: FC = () => (
-  <nav className={'flex items-center gap-4 lg:gap-2'}>
+export const SocialMedia: FC<SocialMediaProps> = ({ className }) => (
+  <nav className={'flex sm:flex-col items-center gap-4 lg:gap-2'}>
     {links.map(link => (
       <a
         key={link.to}
-        className={
-          'w-10 h-10 lg:w-8 lg:h-8 flex items-center justify-center text-white bg-blue rounded-full p-2 hover:saturate-150 duration-300 '
-        }
+        className={`${className || ''} social-media`}
         href={link.to}>
         {createElement(link.icon)}
       </a>
