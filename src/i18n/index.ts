@@ -5,12 +5,12 @@ import LanguageDetector from 'i18next-browser-languagedetector';
 
 import ru from './locales/ru.json';
 import en from './locales/en.json';
-import ge from './locales/ge.json';
+import de from './locales/de.json';
 
 const resources = {
   ru: { translation: ru },
   en: { translation: en },
-  ge: { translation: ge },
+  de: { translation: de },
 };
 
 export const defaultNS = 'translation';
@@ -20,12 +20,12 @@ i18n
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
-    returnNull: false,
+    debug: true,
+    load: 'languageOnly',
     fallbackLng: 'ru',
-    supportedLngs: ['en', 'ru', 'ge'],
+    supportedLngs: ['en', 'ru', 'de'],
     ns: ['translation'],
     defaultNS,
-    load: 'languageOnly',
     nonExplicitSupportedLngs: true,
     interpolation: {
       escapeValue: false,

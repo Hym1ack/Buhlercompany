@@ -3,23 +3,25 @@ import { FC, useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import ruFlag from '../../assets/lang/lang-ru.png';
 import enFlag from '../../assets/lang/lang-en.png';
-import geFlag from '../../assets/lang/lang-ge.png';
+import deFlag from '../../assets/lang/lang-de.png';
 
 const langs = [
   { name: 'ru', flag: ruFlag },
   { name: 'en', flag: enFlag },
-  { name: 'ge', flag: geFlag },
+  { name: 'de', flag: deFlag },
 ];
 
 export const LanguageToggle: FC = () => {
   const { i18n } = useTranslation();
   const [currentLangIndex, setCurrentLangIndex] = useState(
-    langs.findIndex(lang => lang.name === i18n.language)
+    langs.findIndex(lang => i18n.languages[0] === lang.name)
   );
 
   useEffect(() => {
-    setCurrentLangIndex(langs.findIndex(lang => lang.name === i18n.language));
-  }, [i18n.language]);
+    setCurrentLangIndex(
+      langs.findIndex(lang => i18n.languages[0] === lang.name)
+    );
+  }, [i18n.languages]);
 
   const handleClick = () => {
     const nextLangIndex = (currentLangIndex + 1) % langs.length;
