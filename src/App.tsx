@@ -8,6 +8,7 @@ import { Hero } from './components/Hero';
 import { WorkingTime } from './components/WorkingTime';
 import { ChooseUs } from './components/ChooseUs';
 import { OurFeedback } from './components/OurFeedback';
+import { Footer } from './components/Footer';
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
       <div className={'container-max'}>
         <OurFeedback />
       </div>
+      <Footer />
     </I18nextProvider>
   );
 }
