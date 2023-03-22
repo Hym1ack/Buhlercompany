@@ -1,7 +1,7 @@
 import { FC } from 'react';
 import { useTranslation } from 'react-i18next';
 import { BestService } from './BestService';
-import { Button } from './Button';
+import { ModalForm } from './ModalForm';
 
 const MainInfo: FC = () => {
   const { t } = useTranslation();
@@ -19,20 +19,18 @@ const MainInfo: FC = () => {
         {t('hero-text')}
       </p>
       <div className={'flex sm:justify-center gap-12 lg:gap-6 md:flex-wrap'}>
-        <Button
-          className={
+        <ModalForm
+          type={'request'}
+          buttonStyles={
             'text-white bg-blue border border-blue hover:bg-white hover:text-blue'
           }
-          onClick={() => console.log('open form')}>
-          {t('button-request')}
-        </Button>
-        <Button
-          className={
+        />
+        <ModalForm
+          type={'become'}
+          buttonStyles={
             'text-blue border border-blue hover:bg-blue hover:text-white'
           }
-          onClick={() => console.log('join us')}>
-          {t('button-join')}
-        </Button>
+        />
       </div>
     </div>
   );
@@ -58,6 +56,7 @@ const AboutUs: FC = () => {
 
   return (
     <div
+      id={'#about-us'}
       className={
         'flex sm:justify-center gap-7 sm:gap-2 mb-32 lg:mb-16 md:mb-8 sm:mb-4'
       }>

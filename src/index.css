@@ -16,6 +16,16 @@
   button {
     @apply text-white font-bold leading-[19px] duration-300;
   }
+  
+  textarea,
+  input {
+    @apply resize-none px-5 py-3.5 leading-[19px] border border-lapis rounded-md duration-300;
+  }
+  
+  textarea::placeholder,
+  input::placeholder {
+    @apply text-lapis font-light;
+  }
 }
 
 @layer components {
@@ -34,6 +44,8 @@
   .social-media {
     @apply w-10 h-10 lg:w-8 lg:h-8 flex items-center justify-center text-white bg-blue rounded-full p-2 hover:saturate-150 duration-300;
   }
+  
+
 }
 
 @layer utilities {

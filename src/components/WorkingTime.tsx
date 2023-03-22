@@ -1,7 +1,7 @@
 import { FC } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Button } from './Button';
 import workingImage from '../assets/workingTime.png';
+import { ModalForm } from './ModalForm';
 
 export const WorkingTime: FC = () => {
   const { t } = useTranslation();
@@ -71,20 +71,18 @@ export const WorkingTime: FC = () => {
             </div>
             <div
               className={'flex gap-12 md:gap-6 sm:justify-center sm:flex-wrap'}>
-              <Button
-                className={
+              <ModalForm
+                type={'request'}
+                buttonStyles={
                   'text-blue  bg-white border border-white hover:bg-blue hover:text-white'
                 }
-                onClick={() => console.log('open form')}>
-                {t('button-request')}
-              </Button>
-              <Button
-                className={
+              />
+              <ModalForm
+                type={'become'}
+                buttonStyles={
                   'text-white bg-blue border border-white hover:bg-white hover:text-blue'
                 }
-                onClick={() => console.log('join us')}>
-                {t('button-join')}
-              </Button>
+              />
             </div>
           </div>
         </div>
