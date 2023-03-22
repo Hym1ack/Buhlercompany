@@ -1,7 +1,7 @@
 import { useSpring, animated } from '@react-spring/web';
 import { FC, KeyboardEventHandler, ReactNode, useEffect, useRef } from 'react';
 import { createPortal } from 'react-dom';
-import { ReactComponent as CloseX } from '../../assets/closeX.svg';
+import { ReactComponent as CloseX } from '../assets/closeX.svg';
 
 interface ModalProps {
   children: ReactNode;

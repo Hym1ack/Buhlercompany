@@ -1,9 +1,9 @@
 import { FC, useEffect, useState } from 'react';
 
 import { useTranslation } from 'react-i18next';
-import ruFlag from '../../assets/lang/lang-ru.png';
-import enFlag from '../../assets/lang/lang-en.png';
-import deFlag from '../../assets/lang/lang-de.png';
+import ruFlag from '../assets/lang/lang-ru.png';
+import enFlag from '../assets/lang/lang-en.png';
+import deFlag from '../assets/lang/lang-de.png';
 
 const langs = [
   { name: 'ru', flag: ruFlag },

@@ -1,7 +1,7 @@
 import { FC } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Button } from '../Button';
-import workingImage from '../../assets/workingTime.png';
+import { Button } from './Button';
+import workingImage from '../assets/workingTime.png';
 
 export const WorkingTime: FC = () => {
   const { t } = useTranslation();

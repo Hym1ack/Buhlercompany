@@ -1,6 +1,6 @@
 import { FC } from 'react';
 
-import { ReactComponent as AppLogo } from '../../assets/logo.svg';
+import { ReactComponent as AppLogo } from '../assets/logo.svg';
 
 type LogoProps = {
   color: 'white' | 'blue';

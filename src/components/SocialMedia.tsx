@@ -1,7 +1,7 @@
 import { createElement, FC, SVGProps } from 'react';
-import { ReactComponent as TelegramIcon } from '../../assets/social/telegram.svg';
-import { ReactComponent as TwitterIcon } from '../../assets/social/twitter.svg';
-import { ReactComponent as InstagramIcon } from '../../assets/social/instagram.svg';
+import { ReactComponent as TelegramIcon } from '../assets/social/telegram.svg';
+import { ReactComponent as TwitterIcon } from '../assets/social/twitter.svg';
+import { ReactComponent as InstagramIcon } from '../assets/social/instagram.svg';
 
 type IconType = FC<SVGProps<SVGSVGElement>>;
 

@@ -1,7 +1,7 @@
 import { FC } from 'react';
 import { useTranslation } from 'react-i18next';
-import { BestService } from '../BestService';
-import { Button } from '../Button';
+import { BestService } from './BestService';
+import { Button } from './Button';
 
 const MainInfo: FC = () => {
   const { t } = useTranslation();

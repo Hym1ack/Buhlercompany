@@ -1,8 +1,8 @@
 import { FC } from 'react';
 import { useTranslation } from 'react-i18next';
-import transport from '../../assets/service/transport.png';
-import transfer from '../../assets/service/transfer.png';
-import storage from '../../assets/service/storage.png';
+import transport from '../assets/service/transport.png';
+import transfer from '../assets/service/transfer.png';
+import storage from '../assets/service/storage.png';
 
 export const BestService: FC = () => {
   const { t } = useTranslation();

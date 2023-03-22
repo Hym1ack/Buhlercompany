@@ -1,11 +1,11 @@
 import { FC, MouseEventHandler, useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Logo } from '../Logo';
-import { SocialMedia } from '../SocialMedia';
-import { LanguageToggle } from '../LanguageToggle';
-import { useMatchMedia } from '../../hooks/useMatchMedia';
-import { Modal } from '../Modal';
-import { Button } from '../Button';
+import { Logo } from './Logo';
+import { SocialMedia } from './SocialMedia';
+import { LanguageToggle } from './LanguageToggle';
+import { useMatchMedia } from '../hooks/useMatchMedia';
+import { Modal } from './Modal';
+import { Button } from './Button';
 
 const Navigation = () => {
   const { t } = useTranslation();
