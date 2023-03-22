@@ -4,11 +4,13 @@
   "feedback": "Our feedback",
   "hero-title": "We are a close-knit team of like-minded people who work with joy and interest.",
   "hero-text": "Our mission is the trust and happy smiles of our customers.\nWe are ahead of the market, constantly breaking new ground for life and business.",
-  "button-request": "Leave a request",
-  "button-join": "Join our team",
   "hero-delivered": "Parcels delivered",
   "hero-clients": "Customers",
   "hero-workspaces": "Workplaces",
+  "service": {
+      "button": "Leave a request",
+      "use-services": "Become part of the <span class='text-blue'>Buhlercompany</span> team"
+  },
   "service-title": "We offer the <span class='text-blue'>best service</span>",
   "service-feature-title-1": "Cargo transportation",
   "service-feature-text-1": "Buhlercompany transports cargo in a variety of ways.",
@@ -52,7 +54,15 @@
     }
   },
   "feedback-title": "Feedback from our customers",
-  "become-us-title": "Would you like to join our team?",
+  "become-us": {
+    "button": "Join our team",
+    "title": "Use the services of <span class='text-blue'>Buhlercompany</span>",
+    "promo": "Would you like to join our team?",
+    "descr": "Best service on the market. We work with joy and interest.",
+    "input-name": "Name",
+    "input-email": "Email",
+    "input-comment": "Your comment"
+  },
   "footer": {
     "contacts": "Contacts",
     "services": "Services",

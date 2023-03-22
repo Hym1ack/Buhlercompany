@@ -4,11 +4,13 @@
   "feedback": "Bewertungen",
   "hero-title": "Wir sind ein freundliches Team von Gleichgesinnten, die mit Freude und Interesse arbeiten.",
   "hero-text": "Unser Ziel ist das Vertrauen und das glückliche Lächeln unserer Kunden.\nWir sind dem Markt voraus, entdecken ständig neue Lebens- und Geschäftsmöglichkeiten.",
-  "button-request": "Anfrage hinterlassen",
-  "button-join": "Komm in unser Team",
   "hero-delivered": "Ausgelieferte Pakete",
   "hero-clients": "Kunden",
   "hero-workspaces": "Arbeitsplätze",
+  "service": {
+    "button": "Anfrage hinterlassen",
+    "use-services": "Nutzen Sie die Dienstleistungen <span class='text-blue'>Buhlercompany</span>"
+  },
   "service-title": "Wir bieten den <span class='text-blue'>besten Service</span>",
   "service-feature-title-1": "Frachttransport",
   "service-feature-text-1": "Buhlercompany transportiert Fracht auf verschiedene Weise.",
@@ -52,7 +54,15 @@
     }
   },
   "feedback-title": "Feedback unserer Kunden",
-  "become-us-title": "Möchten Sie unser Team verstärken?",
+  "become-us": {
+    "button": "Komm in unser Team",
+    "title": "Werden Sie Teil des Teams von <span class='text-blue'>Buhlercompany</span> team",
+    "promo": "Möchten Sie unser Team verstärken?",
+    "descr": "Bester Service auf dem Markt. Wir arbeiten mit Freude und Interesse.",
+    "input-name": "Name",
+    "input-email": "E-Mail",
+    "input-comment": "Ihr Kommentar"
+  },
   "footer": {
     "contacts": "Kontakt",
     "services": "Services",
