@@ -7,6 +7,7 @@ import { Header } from './components/Header';
 import { Hero } from './components/Hero';
 import { WorkingTime } from './components/WorkingTime';
 import { ChooseUs } from './components/ChooseUs';
+import { OurFeedback } from './components/OurFeedback';
 
 function App() {
   return (
@@ -27,6 +28,9 @@ function App() {
       <WorkingTime />
       <div className={'container mt-36 lg:mt-24 md:mt-12'}>
         <ChooseUs />
+      </div>
+      <div className={'container-max'}>
+        <OurFeedback />
       </div>
     </I18nextProvider>
   );
