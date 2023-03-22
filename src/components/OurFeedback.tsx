@@ -77,7 +77,7 @@ export const OurFeedback = () => {
     <>
       <h6
         className={
-          'mb-20 lg:mb-14 md:mb-8 sm:mb-4 text-3xl md:text-2xl text-center'
+          'mb-20 lg:mb-14 md:mb-8 sm:mb-4 text-3xl font-medium md:text-2xl text-center'
         }
         dangerouslySetInnerHTML={{ __html: t('feedback-title') }}
       />
@@ -144,7 +144,7 @@ export const OurFeedback = () => {
           </SwiperSlide>
         ))}
       </Swiper>
-      <div className={'relative mb-16'}>
+      <div className={'relative mb-24 md:mb-20'}>
         <button
           className={'prev-arrow absolute left-0 bottom-20 md:bottom-28 z-20'}>
           <img
