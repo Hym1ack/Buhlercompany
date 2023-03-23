@@ -10,18 +10,18 @@ export const BestService: FC = () => {
   const serviceList = [
     {
       img: transport,
-      title: t('service-feature-title-1'),
-      text: t('service-feature-text-1'),
+      title: t('service.feature-title-1'),
+      text: t('service.feature-text-1'),
     },
     {
       img: storage,
-      title: t('service-feature-title-2'),
-      text: t('service-feature-text-2'),
+      title: t('service.feature-title-2'),
+      text: t('service.feature-text-2'),
     },
     {
       img: transfer,
-      title: t('service-feature-title-3'),
-      text: t('service-feature-text-3'),
+      title: t('service.feature-title-3'),
+      text: t('service.feature-text-3'),
     },
   ];
 
@@ -31,7 +31,7 @@ export const BestService: FC = () => {
         className={
           'mb-14 text-center text-gray text-2xl font-medium sm:text-xl sm:mb-4'
         }
-        dangerouslySetInnerHTML={{ __html: t('service-title') }}
+        dangerouslySetInnerHTML={{ __html: t('service.title') }}
       />
       <div className={'flex md:flex-col md:items-center justify-center gap-4'}>
         {serviceList.map(service => (

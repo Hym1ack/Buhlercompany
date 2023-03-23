@@ -13,10 +13,10 @@ const MainInfo: FC = () => {
       }>
       <h1
         className={'mb-4 lg:mb-2 text-3xl xl:text-2xl md:text-xl font-medium'}>
-        {t('hero-title')}
+        {t('hero.title')}
       </h1>
       <p className={'mb-8 md:mb-4 text-light whitespace-pre-line'}>
-        {t('hero-text')}
+        {t('hero.text')}
       </p>
       <div className={'flex sm:justify-center gap-12 lg:gap-6 md:flex-wrap'}>
         <ModalForm
@@ -42,15 +42,15 @@ const AboutUs: FC = () => {
   const infoList = [
     {
       title: '160k',
-      text: t('hero-delivered'),
+      text: t('hero.delivered'),
     },
     {
       title: '25k',
-      text: t('hero-clients'),
+      text: t('hero.clients'),
     },
     {
       title: '400',
-      text: t('hero-workspaces'),
+      text: t('hero.workspaces'),
     },
   ];
 

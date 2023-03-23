@@ -2,22 +2,24 @@
   "about-us": "About us",
   "how-we-work": "How we work",
   "feedback": "Our feedback",
-  "hero-title": "We are a close-knit team of like-minded people who work with joy and interest.",
-  "hero-text": "Our mission is the trust and happy smiles of our customers.\nWe are ahead of the market, constantly breaking new ground for life and business.",
-  "hero-delivered": "Parcels delivered",
-  "hero-clients": "Customers",
-  "hero-workspaces": "Workplaces",
-  "service": {
-      "button": "Leave a request",
-      "use-services": "Become part of the <span class='text-blue'>Buhlercompany</span> team"
+  "hero" : {
+    "title": "We are a close-knit team of like-minded people who work with joy and interest.",
+    "text": "Our mission is the trust and happy smiles of our customers.\nWe are ahead of the market, constantly breaking new ground for life and business.",
+    "delivered": "Parcels delivered",
+    "clients": "Customers",
+    "workspaces": "Workplaces"
   },
-  "service-title": "We offer the <span class='text-blue'>best service</span>",
-  "service-feature-title-1": "Cargo transportation",
-  "service-feature-text-1": "Buhlercompany transports cargo in a variety of ways.",
-  "service-feature-title-2": "Cargo storage",
-  "service-feature-text-2": "Buhlercompany provides quality storage services.",
-  "service-feature-title-3": "Cargo transfer",
-  "service-feature-text-3": "The company provides high-quality transfer of small cargo.",
+  "service": {
+    "button": "Leave a request",
+    "use-services": "Become part of the <span class='text-blue'>Buhlercompany</span> team",
+    "title": "We offer the <span class='text-blue'>best service</span>",
+    "feature-title-1": "Cargo transportation",
+    "feature-text-1": "Buhlercompany transports cargo in a variety of ways.",
+    "feature-title-2": "Cargo storage",
+    "feature-text-2": "Buhlercompany provides quality storage services.",
+    "feature-title-3": "Cargo transfer",
+    "feature-text-3": "The company provides high-quality transfer of small cargo."
+  },
   "working" : {
     "title": "How we work",
     "stage-1": {

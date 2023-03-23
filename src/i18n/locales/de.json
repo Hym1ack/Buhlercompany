@@ -2,22 +2,24 @@
   "about-us": "Über uns",
   "how-we-work": "Wie wir arbeiten",
   "feedback": "Bewertungen",
-  "hero-title": "Wir sind ein freundliches Team von Gleichgesinnten, die mit Freude und Interesse arbeiten.",
-  "hero-text": "Unser Ziel ist das Vertrauen und das glückliche Lächeln unserer Kunden.\nWir sind dem Markt voraus, entdecken ständig neue Lebens- und Geschäftsmöglichkeiten.",
-  "hero-delivered": "Ausgelieferte Pakete",
-  "hero-clients": "Kunden",
-  "hero-workspaces": "Arbeitsplätze",
+  "hero" : {
+    "title": "Wir sind ein freundliches Team von Gleichgesinnten, die mit Freude und Interesse arbeiten.",
+    "text": "Unser Ziel ist das Vertrauen und das glückliche Lächeln unserer Kunden.\nWir sind dem Markt voraus, entdecken ständig neue Lebens- und Geschäftsmöglichkeiten.",
+    "delivered": "Ausgelieferte Pakete",
+    "clients": "Kunden",
+    "workspaces": "Arbeitsplätze"
+  },
   "service": {
     "button": "Anfrage hinterlassen",
-    "use-services": "Nutzen Sie die Dienstleistungen <span class='text-blue'>Buhlercompany</span>"
+    "use-services": "Nutzen Sie die Dienstleistungen <span class='text-blue'>Buhlercompany</span>",
+    "title": "Wir bieten den <span class='text-blue'>besten Service</span>",
+    "feature-title-1": "Frachttransport",
+    "feature-text-1": "Buhlercompany transportiert Fracht auf verschiedene Weise.",
+    "feature-title-2": "Frachtlagerung",
+    "feature-text-2": "Buhlercompany bietet hochwertige Lagerungsdienstleistungen an.",
+    "feature-title-3": "Frachttransfer",
+    "feature-text-3": "Das Unternehmen bietet einen qualitativ hochwertigen Transfer von kleinen Frachten."
   },
-  "service-title": "Wir bieten den <span class='text-blue'>besten Service</span>",
-  "service-feature-title-1": "Frachttransport",
-  "service-feature-text-1": "Buhlercompany transportiert Fracht auf verschiedene Weise.",
-  "service-feature-title-2": "Frachtlagerung",
-  "service-feature-text-2": "Buhlercompany bietet hochwertige Lagerungsdienstleistungen an.",
-  "service-feature-title-3": "Frachttransfer",
-  "service-feature-text-3": "Das Unternehmen bietet einen qualitativ hochwertigen Transfer von kleinen Frachten.",
   "working" : {
     "title": "Wie wir arbeiten",
     "stage-1": {
