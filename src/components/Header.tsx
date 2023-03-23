@@ -7,24 +7,50 @@ import { useMatchMedia } from '../hooks/useMatchMedia';
 import { Modal } from './Modal';
 import { Button } from './Button';
 
-const Navigation = () => {
+type NavigationProps = {
+  closeModal?: () => void;
+};
+
+const Navigation: FC<NavigationProps> = ({ closeModal }) => {
   const { t } = useTranslation();
 
+  const handleClick: MouseEventHandler<HTMLAnchorElement> = e => {
+    e.preventDefault();
+    const id = e.currentTarget.getAttribute('href');
+    const anchor = id ? document.querySelector(id) : null;
+
+    if (anchor) {
+      anchor.scrollIntoView({
+        behavior: 'smooth',
+      });
+    }
+
+    if (typeof closeModal === 'function') {
+      closeModal();
+    }
+  };
+
   return (
-    <nav className={'flex sm:flex-col gap-8 lg:gap-4 md:gap-3 md:text-sm'}>
+    <nav
+      className={
+        'flex sm:flex-col gap-8 lg:gap-4 md:gap-3 sm:gap-1 md:text-sm'
+      }>
       <a
         className={'p-1 sm:border-b border-gray text-center'}
-        href={'#about-us'}>
+        href={'#about-us'}
+        onClick={handleClick}>
         {t('about-us')}
       </a>
       <a
         className={'p-1 sm:border-b border-gray text-center'}
-        href={'#working-time'}>
+        href={'#working-time'}
+        onClick={handleClick}>
         {t('how-we-work')}
       </a>
       <a
         className={'p-1 sm:border-b border-gray text-center'}
-        href={'#feedback'}>
+        href={'#feedback'}
+        onClick={handleClick}>
         {t('feedback')}
       </a>
     </nav>
@@ -56,27 +82,27 @@ export const Header: FC = () => {
   return (
     <div
       className={
-        'flex items-center justify-between mt-2 md:mt-1 mb-44 md:mb-64'
+        'sm:fixed sm:top-0 sm:left-0 sm:w-screen sm:bg-white sm:bg-opacity-50 z-20 px-4 flex items-center justify-between pt-2 md:pt-1'
       }>
       <div
         className={
           'w-full flex gap-32 lg:gap-12 md:gap-4 items-center sm:justify-between'
         }>
-        <Logo color={'blue'} className={'self-center'} />
+        <Logo color={'blue'} className={'self-center sm:max-h-16'} />
         {isMobile ? (
           <>
             <ModalButton setOpenMenu={() => setOpenMenu(true)} />
             <Modal
               isOpen={openMenu}
               position={'right'}
-              className={'bg-white right-0'}
+              className={'w-full bg-white right-0'}
               backgroundColor={'rgba(255,255,255, 0.7)'}
               setClose={() => setOpenMenu(false)}>
               <div
                 className={
-                  'flex flex-col pt-10 p-3 gap-4 items-end border-blue rounded-bl-md'
+                  'flex justify-between mr-10 py-3 p-3 gap-4 border-blue rounded-bl-md'
                 }>
-                <Navigation />
+                <Navigation closeModal={() => setOpenMenu(false)} />
                 <LanguageToggle />
               </div>
             </Modal>

@@ -76,6 +76,7 @@ export const OurFeedback = () => {
   return (
     <>
       <h6
+        id={'feedback'}
         className={
           'mb-20 lg:mb-14 md:mb-8 sm:mb-4 text-3xl font-medium md:text-2xl text-center'
         }

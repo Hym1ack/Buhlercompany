@@ -26,7 +26,7 @@ export const BestService: FC = () => {
   ];
 
   return (
-    <div className={'mb-28'}>
+    <div id={'about-us'} className={'mb-28'}>
       <h3
         className={
           'mb-14 text-center text-gray text-2xl font-medium sm:text-xl sm:mb-4'

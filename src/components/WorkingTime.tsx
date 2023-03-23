@@ -26,7 +26,9 @@ export const WorkingTime: FC = () => {
   ];
 
   return (
-    <div className={'w-screen bg-blue py-24 md:py-16 sm:py-12'}>
+    <div
+      id={'working-time'}
+      className={'w-screen bg-blue py-24 md:py-16 sm:py-12'}>
       <div className={'container'}>
         <div className={'flex lg:flex-row-reverse justify-between'}>
           <div className={'relative w-[792px] sm:hidden'}>

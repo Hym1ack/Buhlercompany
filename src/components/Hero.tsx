@@ -9,7 +9,7 @@ const MainInfo: FC = () => {
   return (
     <div
       className={
-        'mb-32 lg:mb-16 md:mb-8 sm:mb-4 max-w-[633px] xl:max-w-md  flex flex-col justify-between'
+        'mt-64 mb-32 lg:mb-16 md:mb-8 sm:mb-4 max-w-[633px] xl:max-w-md  flex flex-col justify-between'
       }>
       <h1
         className={'mb-4 lg:mb-2 text-3xl xl:text-2xl md:text-xl font-medium'}>
